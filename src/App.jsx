@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Card from "./Components/Card";
-import Song from "./Components/Song";
-import Score from "./Components/Score";
 import Image from "./Components/Image";
 import Props from "./Components/Props";
+import Song from "./Components/Song";
+import Score from "./Components/Score";
 
 function App() {
   const data = [
