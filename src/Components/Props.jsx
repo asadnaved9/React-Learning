@@ -20,7 +20,6 @@ function Props({ values, handelClick, index }) {
           onClick={() => handelClick(index)}
           className={`mt-4 px-6 py-1 text-xs text-white ${friend ? "bg-blue-500" : "bg-blue-700"} font-semibold rounded-md`}
         >
-          
           {friend === true ? (
             "Friends"
           ) : (
